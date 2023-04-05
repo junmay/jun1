@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>표 만들기</title>
+  <style>
+    table, th, td {
+      border:1px solid #ccc;
+    }
+    td {
+      width:100px;  /* 셀 너비 */
+      height:30px;  /* 셀 높이 */
+    }
+  </style>
+</head>
+<body>
+    <table>
+      <caption>colgruop 연습</caption>
+      <!--
+   <colgroup>
+      <col> : 전체열 중 1개열 또는 그 이상 그룹을 지정해 서로 다른 스타일적용
+      ..
+   </colgroup>
+       -->
+      <colgroup>
+        <col>
+        <col span="2" style="background-color: blue;">
+        <col style="background-color: yellow;">
+      </colgroup>
+      <tr>
+
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+      </tr>
+      <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+      </tr>
+    </table>
+
+</body>
+</html>

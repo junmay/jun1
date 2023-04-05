@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>수업 만족도 설문 조사</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatoble" content="ic=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+  </style>
+</head>
+<body>
+
+<div class="container left">
+  <h1> 수업 만족도 조사</h1>
+  <p> 해당 하는 내용을 정확히 입력해 주세요.</p><hr>
+  <form>
+    <ol>
+      <li>수업내용은 도움이 되는 내용인가요?<br>
+        <input type="radio"  id="star5" name="class"> <label for="star5">매우그렇다</label>
+        <input type="radio" id="star4" name="class"><label for="star4">그렇다</label>
+        <input type="radio"  id="star3" name="class"> <label for="star3">보통</label>
+        <input type="radio"  id="star2" name="class"> <label for="star2">아니다</label>
+        <input type="radio" id="star1" name="class"> <label for="star1">전혀아니다</label>
+      </li>
+
+      <li>강의실에 필요한 물품이 무엇인가요?<br>
+        <input type="checkbox" id="asd5" name="class"><label for="asd5">에어컨</label>
+        <input type="checkbox" id="asd4" name ="class"> <label for="asd4">다과</label>
+        <input type="checkbox"  id="asd3" name="class"> <label for="asd3">듀얼모니터</label>
+        <input type="checkbox"  id="asd2" name="class"><label for="asd2">방석</label>
+        <input type="checkbox"  id="asd1" name="class"><label for="asd1">공기청정기</label>
+      </li>
+      <li>수업시간은 몇시가 적당한가요?
+      <input type="time" value="09:00"></li>
+      <li>수강인원은 몇명이 적당한가요?
+      <input type="number" value="5" min="5" max="20"></li>
+    </ol>
+
+    <input type="button" value="이전"   onclick="location.href='ex2.html'"/>
+    <input type="submit" value="제출하기">
+    <input type="reset" value="다시입력">
+  </form>
+</div>
+
+</body>
+</html>

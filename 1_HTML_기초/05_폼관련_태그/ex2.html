@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>수강생 정보 입력</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatoble" content="ic=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1> 수강생 정보 입력</h1>
+    <p> 해당 하는 내용을 정확히 입력해 주세요.</p><hr>
+    <form>
+        <fieldset>
+            <legend>개인정보입력</legend>
+            <ul>
+                <li><label for="user_name">이름</label><input type="text" id="user_name"></li>
+                <li><label for="user_brh">생년월일</label><input type="date" value="1995-06-25" id="user_brh"></li>
+                <li><label for="user_ph">전화번호</label><input type="tel" id="user_ph"></li>
+                <li><label for="user_pw">비밀번호</label><input type="password" id="user_pw"></li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>학원정보입력</legend>
+            <ul>
+                <li><label for="user_email">이메일</label><input type="email" id="user_email"></li>
+                <li><label for="user_page">홈페이지</label><input type="url"  id="user_page"></li>
+                <li><label for="user_start">수업시간</label><input type="time" value="09:30" id="user_start">~
+                <label for="user_end"></label><input type="time" value="18:30" id="user_end"></li>
+                <li><label for="user_IT">IT기술</label><input type="range" value="2"min="1" max="5" id="user_IT">(1에서5등급)</li>
+            </ul>
+        </fieldset>
+        <input type="button" value="이전" class="btn"  onclick="location.href='ex1.html'"/>
+        <input type="button" value="다음" class="btn"  onclick="location.href='ex3.html'"/>
+    </form>
+</div>
+
+
+</body>
+</html>
