@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>선형 그라데이션</title>
+<style>
+    div {
+        width: 500px;
+        height: 300px;
+        border-radius:10px;
+    }
+    .grad { /* 45도 (오른쪽 위) 방향으로, 빨강에서 흰색으로 / 크롬 브라우저에서 테스트 할 것*/
+        background: #ff0000; /* css3 미지원 브라우저 */
+        background: linear-gradient(45deg, #ff0000, #ffffff); /* 최신 모던 브라우저*/
+    }
+</style>
+</head>
+<div class="grad"></div>
+
+</body>
+</html>
