@@ -41,8 +41,74 @@ hr {
 }
 .centered { /* class=centered인 div에 적용할 스타일 */
     text-align: center; /* 가운데 정렬 */
+    padding-bottom: 5px;
+    height: 500px;
+
 }
 
 ul { /* 순서없는 목록에 적용할 스타일 */
     list-style-type: none; /* 불릿 없앰 */
+}
+
+
+aside{
+    float:left;
+    width:200px;
+    height:auto;
+    margin-top:80px;
+    text-align:center;
+}
+.at1:hover{
+    background-color:gray;
+    border:1px solid black;
+}
+.at2:hover{
+    background-color:red;
+    border:1px solid black;
+}.at3:hover{
+     background-color:orangered;
+     border:1px solid black;
+ }.at4:hover{
+      background-color:yellow;
+      border:1px solid black;
+   }
+.at5:hover{
+    background-color:green;
+    border:1px solid black;
+}.at6:hover{
+     background-color:#0094ff;
+     border:1px solid black;
+ }
+
+.box { box-shadow: 2px -2px 5px 0px black;}
+.box2 {box-shadow: 5px 5px 15px 5px gray;}
+
+section {
+    float: left;
+    width:580px;
+    padding:5px;
+}
+section article{
+    float:left;
+    width:600px;
+    height:300px;
+    margin:10px;
+    padding:10px;
+    border:1px solid #ccc;
+}
+.at1:hover{
+    background-color:#cf9;
+    border:1px solid green;
+}
+.at2:hover{
+    background-color:#a2d0ff;
+    border:1px solid blue;
+}
+.at3:hover{
+    background-color:#ebcbfe;
+    border:1px solid purple;
+}
+.at4:hover{
+    background-color:#fc3;
+    border:1px solid red;
 }

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>박스모델</title>
+<!-- box-shadow(수평거리, 수직거리는 박스를 기준)
+       수평거리 (horizontal offset): 양수 값은 오른쪽으로, 음수 값은 왼쪽으로 그림자가 그려집니다.
+       수직거리 (vertical offset): 양수 값은 아래족으로, 음수 값은 위쪽으로 그림자가 그려집니다.
+       흐림     (blur radius): 값이 커질스록 그림자가 더 흐려집니다.
+       그림자의 크기(size): 값이 커질스로 그림자가 더 커집니다.
+       색상 (color)-->
+  <style>
+    div {
+      width: 200px;
+      height: 100px;
+      display: inline-block;
+      margin: 15px;
+      border: 2px solid;
+      border-radius: 20px;
+    }
+    .box { box-shadow: 2px -2px 5px 0px black;}
+    .box2 {box-shadow: 5px 5px 15px 5px gray;}
+  </style>
+  </head>
+<body>
+<div class="box"></div>
+<div class="box2"></div>
+</body>
+</html>
