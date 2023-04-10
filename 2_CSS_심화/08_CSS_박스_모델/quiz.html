@@ -13,18 +13,25 @@
 		<title>display 속성</title>
 		<style>
 			a:link, a:visited {
-				color:black;
+				color: black;
 				text-decoration: none;
 			}
+			ul li {
+				list-style: none;
+				display: inline-block;
+				border:1px solid black; /* 2px짜리 빨강 실선 */
+				padding: 10px 20px;
+			}
+			.box3 { margin:10px;}  /* 패딩 - 10px 10px 10px 10px */
 		</style>
 	</head>
 	<body>
 		<nav>
 			<ul>
-				<li><a href="#">메뉴1</a></li>
-				<li><a href="#">메뉴2</a></li>
-				<li><a href="#">메뉴3</a></li>
-				<li><a href="#">메뉴4</a></li>
+				<li class="box3"><a href="#">메뉴1</a></li>
+				<li class="box3"><a href="#">메뉴2</a></li>
+				<li class="box3"><a href="#">메뉴3</a></li>
+				<li class="box3"><a href="#">메뉴4</a></li>
 			</ul>
 		</nav>
 	</body>

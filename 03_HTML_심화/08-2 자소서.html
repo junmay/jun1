@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5 레이아웃</title>
+  <style>
+    body {
+      font-family: "맑은 고딕", "고딕", "굴림";
+      background-image: url("images/back.jpg");
+      background-size: cover;
+    }
+    #wrapper {
+      width: 800px;
+      margin: 0 auto;
+    }
+    header {
+      width: 100%;
+      height: 150px;
+
+    }
+    header {
+      width: 100%;
+      height: 150px;
+    }
+    header nav {
+      float: left;
+      width: 70%;
+      margin-top: 50px;
+    }
+    nav ul {
+      list-style-type: none;
+    }
+    nav ul li {
+      display: inline;
+      float: left;
+      font-weight: bold;
+      margin: 15px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+    footer p {
+      padding: 20px;
+    }
+    h1 { font-size: 2em;}
+    h2 { font-size: 1.5em;}
+    h3 { font-size: 1.0em;}
+    p {
+      line-height: 20px;
+      font-size: 12px;
+    }
+    section {
+      float: left;
+      width: 580px;
+      padding: 5px;
+    }
+    section article {
+      float: left;
+      width: 250px;
+      height: 220px;
+      margin: 5px;
+      padding: 10px;
+      border: 1px solid #a2d0ff;
+    }
+    aside {
+      float: right;
+      width: 200px;
+      height: auto;
+      margin-top: 80px;
+      border: 1px solid black;
+      text-align: center;
+    }
+    footer {
+      clear: both;
+      width: 800px;
+      margin-bottom: 0;
+      background-color: #333;
+      color: white;
+      text-align: center;
+    }
+    .at1, .at2, .at3, .at4 {
+
+    }
+    .at1:hover{
+      background-color:#0066ff;
+      border:1px solid black;
+    }
+    .at2:hover{
+      background-color:#a2d0ff;;
+      border:1px solid blue;
+    }
+    .at3:hover{
+      background-color:#a2d0ff;
+      border:1px solid purple;
+    }
+    .at4:hover{
+      background-color:#eebbc3;
+      border:1px solid red;
+    }
+
+
+  </style>
+</head>
+<body>
+<div id="wrapper">
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">인적 사항</a></li>
+        <li><a href="#">학력 사항</a></li>
+        <li><a href="#">경력 사항</a></li>
+        <li><a href="#">보유 기술</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section>
+    <h2>자기소개서</h2>
+    <article class="at1">
+      <h3>인적사항 </h3>
+      <p> 인천광역시 남동구에 사는 올해 24살 박준혁입니다. 대학교 시절 파이썬을 하던 코딩이 재미가 있어 현재 국비지원 빅데이터 분석 수업을 듣고 있습니다.</p>
+    </article>
+    <article class="at2">
+      <h3>학력 사항 </h3>
+      <p> 고등학교를 졸업하고 2년제 전문대학교를 진학하여 군복무 후 무난하게 졸업 했습니다. 대학 시절 중, 졸업 작품으로 애플리케션을 팀원들과 제작 하였는데,
+        그당시 처음 접해보는 안드로이드 스튜디오, 데이터베이스로 인해 고생도 많이 했지만 하나하나 팀원들과 풀어 나가는 과정이 힘들기도 하지만 재미있었다.
+        이 일을 계기로 졸업 후 국비지원 학원에서 공부중이다.</p>
+    </article>
+    <article class="at3">
+      <h3>경력 사항 </h3>
+      <p> 경력이 없다.....</p>
+    </article>
+    <article class="at4">
+      <h3>보유기술</h3>
+      <p> 보유기슐이라고 할 것 도 없는 거 같다 ( 이유 전문적으로 하지 못 함)</p>
+    </article>
+  </section>
+  <aside>
+    <img src="images/py%20(2).jpg" alt="">
+    <img src="images/py%20(1).jpg" alt="">
+    <img src="images/ora.jpg" alt="">
+  </aside>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
