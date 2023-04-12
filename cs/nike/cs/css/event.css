@@ -1,0 +1,30 @@
+.imgslider {
+    position: relative;
+    width: 80%;
+    height: 400px;
+}
+
+.imgslider img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 80%;
+    opacity: 0;
+    transition: opacity 5s ease-in-out;
+    animation: fadeinout 10s infinite;
+}
+
+ @keyframes fadeinout {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+.rigth-content {
+    max-width: 1000px;
+    padding: 50px;
+}
+.event li {
+    list-style-type: initia;
+
+}

@@ -1,0 +1,46 @@
+.right_content {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.containerp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.form-group {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.form-group:last-child {
+    margin-right: 0;
+}
+
+.form-control {
+    width: 400px;
+    height: 50px;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.btn {
+    height: 50px;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #0069d9;
+}
